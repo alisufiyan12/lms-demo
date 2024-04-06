@@ -83,7 +83,7 @@ export const ImageForm = ({
         )
       )}
       {isEditing && (
-        <div>
+        <div> 
           <FileUpload
             endpoint="courseImage"
             onChange={(url) => {

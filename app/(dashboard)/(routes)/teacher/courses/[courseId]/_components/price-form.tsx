@@ -94,7 +94,7 @@ export const PriceForm = ({
             className="space-y-4 mt-4"
           >
             <FormField
-              control={form.control}
+            control={form.control}
               name="price"
               render={({ field }) => (
                 <FormItem>

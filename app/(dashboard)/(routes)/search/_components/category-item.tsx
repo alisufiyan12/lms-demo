@@ -15,7 +15,7 @@ interface CategoryItemProps {
   value?: string;
   icon?: IconType;
 };
-
+ 
 export const CategoryItem = ({
   label,
   value,
